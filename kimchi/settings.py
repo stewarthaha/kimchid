@@ -85,7 +85,7 @@ DATABASES = {
         'NAME':'stewarthaha$Kimchi_DB',
         'USER':'stewarthaha',
         'PASSWORD':'rlaclWkd',
-        'HOST':'stewarthaha.mysql.pythonanywhere-service.com',
+        'HOST':'stewarthaha.mysql.pythonanywhere-services.com',
         'PORT':'3306',
         'OPTIONS': { 'init_command':"SET sql_mode='STRICT_TRANS_TABLES'",},
     }
