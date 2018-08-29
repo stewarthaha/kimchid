@@ -83,7 +83,7 @@ DATABASES = {
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE':'django.db.backends.mysql',
         'NAME':'Kimchi_DB',
-        'USER':'ulegyi',
+        'USER':'stewarthaha',
         'PASSWORD':'rlaclWkd',
         'HOST':'localhost',
         'PORT':'3306',
