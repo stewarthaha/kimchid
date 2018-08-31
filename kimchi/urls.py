@@ -14,10 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from kimchi import views as MyAppView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mypage/', MyAppView.DisplayMypage),
+    path('blog/',include('blog.urls')),
+    path(r'',include('blog.urls')), #url(r'', include('blog.urls'))에서 내가 수정함.
 ]
