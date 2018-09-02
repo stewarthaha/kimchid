@@ -58,8 +58,8 @@ ROOT_URLCONF = 'kimchi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-#       'DIRS': [os.path.join(BASE_DIR,'templates')],
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
+#        'DIRS': [],   " Origin" 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
